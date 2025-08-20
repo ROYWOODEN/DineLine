@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-[#2D2D2F] text-white p-4 flex flex-row justify-between items-center">
+  <header class="bg-[#2D2D2F] p-4 flex flex-row justify-between items-center">
     <div class="">
       <span>AIRESTO | Супра</span>
     </div>
