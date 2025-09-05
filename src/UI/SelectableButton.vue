@@ -4,16 +4,16 @@
     class="p-3 rounded-xl cursor-pointer font-bold"
     :class="isActive ? 'bg-[#007AFF]' : 'bg-[#242426]'"
   >
-    {{ day }}
+    {{ value }}
   </div>
 </template>
 
 <script setup lang="ts">
 interface Props {
-  day: string
+  value: string
   isActive: boolean
 }
-const { day, isActive } = defineProps<Props>()
+const { value, isActive } = defineProps<Props>()
 const emit = defineEmits(['select'])
 </script>
 

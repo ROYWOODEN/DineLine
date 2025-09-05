@@ -1,4 +1,4 @@
-import BookingView from '@/Views/BookingView.vue'
+import BookingPage from '@/pages/BookingPage/BookingPage.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
@@ -7,7 +7,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: BookingView,
+      component: BookingPage,
     },
   ],
 })

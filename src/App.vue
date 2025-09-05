@@ -6,14 +6,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
-import AppNavigation from './components/AppNavigation.vue';
-
-
-
-
+import { AppNavigation } from './modules/Header'
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
