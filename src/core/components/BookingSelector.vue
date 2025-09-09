@@ -18,7 +18,7 @@ interface Props {
   title: string
   items: object
   active: number | boolean
-  toggle: (index) => void
+  toggle: (index: number) => void
   className: string
 }
 const props = defineProps<Props>()

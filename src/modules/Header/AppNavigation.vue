@@ -24,7 +24,7 @@
 
 <script setup lang="ts">
 import Button from '@/UI/ContentButton.vue'
-import SearchInput from './components/SearchInput.vue'
+import SearchInput from '@/UI/SearchInput.vue'
 import Exit from './icons/Exit.vue'
 import Theme from './icons/Theme.vue'
 </script>
